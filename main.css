@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 header {
     text-align: right;
 }
@@ -20,6 +24,20 @@ header a:hover {
 }
 
 header div {
+    margin-top: 10px;
     text-align: center;
     font-size: xx-large;
+}
+
+.menu {
+    color: white;
+    background-color: black;
+    padding: 30px 20px;
+    margin: 10px 0px;
+    line-height: 1.5rem;
+    font-family: sans-serif;
+}
+
+.menu div:hover {
+
 }
