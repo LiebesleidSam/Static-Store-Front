@@ -102,6 +102,7 @@ li.dropdown {
 }
 
 .cards p {
+    font-family: sans-serif;
     background-color: orange;
     margin: 5px 40%;
     padding: 5px 5px;
@@ -110,5 +111,19 @@ li.dropdown {
 
 .cards p:hover {
     background-color: rgb(199, 129, 0);
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+footer img {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+footer img:hover {
     cursor: pointer;
 }
