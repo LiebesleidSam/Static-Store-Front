@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: skyblue;
 }
 
 header {
@@ -11,7 +12,7 @@ header a {
     color: white;
     background-color: rgb(37, 64, 138);
     border: solid 1px gray;
-    border-radius: 3px;
+    border-radius: 5px;
     padding: .25rem .5rem;
     margin-right: .5rem;
     line-height: 1.5rem;
@@ -87,10 +88,27 @@ li.dropdown {
 
 #subscribe {
     position: relative;
-    top: 14px;
+    top: 13px;
     left: 65%;
 }
 
 #subscribe:hover {
+    color: lightgray;
+    cursor: pointer;
+}
+
+.cards {
+    text-align: center;
+}
+
+.cards p {
+    background-color: orange;
+    margin: 5px 40%;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+.cards p:hover {
+    background-color: rgb(199, 129, 0);
     cursor: pointer;
 }
